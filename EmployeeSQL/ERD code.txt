@@ -2,9 +2,6 @@ departments
 -
 dept_no PK CHAR(4)
 dept_name VARCHAR(50)
-#Address1 string
-#Address2 NULL string
-#Address3 NULL string
 
 dept_emp
 -
@@ -23,7 +20,7 @@ emp_title_id CHAR(5)
 birth_date DATE
 first_name VARCHAR(20)
 last_name VARCHAR(20)
-gender CHAR(1)
+sex CHAR(1)
 hire_date DATE
 
 salaries
@@ -33,5 +30,5 @@ salary INT
 
 titles
 -
-emp_no INT FK >- employees.emp_no
+title_id CHAR(5) FK >- employees.emp_title_id
 title VARCHAR(20)
