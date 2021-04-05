@@ -59,4 +59,14 @@ CREATE TABLE dept_emp (
 );
 
 SELECT * FROM dept_emp;
+
 --salaries
+DROP TABLE salaries;
+
+CREATE TABLE salaries (
+	emp_no INT,
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
+	salary INT
+);
+
+SELECT * FROM salaries;
