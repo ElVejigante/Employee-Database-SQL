@@ -1,5 +1,4 @@
-# sql-challenge
-SQL Homework - Employee Database: A Mystery in Two Parts
+# Employee Database: A Mystery in Two Parts
 ![sql](https://user-images.githubusercontent.com/4631949/112992987-b6703300-9136-11eb-9c51-9cdbc905c02d.png)
 ## Background
 
